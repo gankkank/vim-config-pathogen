@@ -1,7 +1,10 @@
 vim
 ===
 
-vim enhance scripts used (directory: ~/.vim).
+vim enhance scripts used (.vim/, .vimrc).
+
+``cd ~; git clone git@github.com:gankkank/vimConfig.git .``
+
 
 ### git repos used
 
@@ -15,6 +18,7 @@ vim enhance scripts used (directory: ~/.vim).
 
 	git clone git://github.com/pangloss/vim-javascript.git
 
+
 * for usability
 
         git clone git://github.com/vim-scripts/bash-support.vim.git
@@ -22,6 +26,7 @@ vim enhance scripts used (directory: ~/.vim).
         git clone git://github.com/vim-scripts/AutoClose.git
 
 	\#git clone git://github.com/jiangmiao/auto-pairs.git
+
 
 * main for ref
 
