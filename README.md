@@ -21,14 +21,14 @@ vim enhance scripts used (directory: ~/.vim).
 
         git clone git://github.com/vim-scripts/AutoClose.git
 
-	#git clone git://github.com/jiangmiao/auto-pairs.git
+	\#git clone git://github.com/jiangmiao/auto-pairs.git
 
 * main for ref
 
 	https://github.com/vim-scripts
 
 
-### notes
+### ref notes
 
 * bash-support ``vi xxx.sh``
 
