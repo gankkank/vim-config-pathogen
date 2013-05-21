@@ -5,6 +5,8 @@ vim enhance scripts used (.vim/, .vimrc).
 
 ``cd /opt/data; git clone git@github.com:gankkank/vimConfig.git``
 
+``cp -r vimConfig/.vim* ~/``
+
 
 ### git repos used
 
