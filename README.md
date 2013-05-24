@@ -10,6 +10,8 @@ vim enhance scripts used (.vim/, .vimrc).
 
 ### git repos used
 
+** no .git/ should exist in subdirectories when commit **
+
 * for hightlight
 
 	git clone git://github.com/kchmck/vim-coffee-script.git
