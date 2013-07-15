@@ -1,12 +1,21 @@
 vim
 ===
 
-vim enhance scripts used (.vim/, .vimrc).
+### vimConfig quick start
 
-``cd /opt/data; git clone git@github.com:gankkank/vimConfig.git``
+```
+git clone https://github.com/gankkank/vimConfig
+cd vimConfig
 
-``cp -r vimConfig/.vim* ~/``
+#use basic version without trouble
+git checkout tags/v1.0
+cp -r .vim* ~/
 
+#use advance version with AutoClose
+git checkout tags/v1.1
+cp -r .vim* ~/
+
+```
 
 ### git repos used
 
