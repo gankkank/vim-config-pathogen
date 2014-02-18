@@ -29,10 +29,10 @@ Completed 200 OK in 29.0ms (Views: 1.0ms | ActiveRecord: 0.0ms)
     def update_repository(repository)
     #command = git_command('fetch origin', repository)
     command = git_command('fetch -q --all', repository)
-#    if exec(command)
+    if exec(command)
 #      command = git_command("fetch origin '+refs/heads/*:refs/heads/*'", repository)
-#      exec(command)
-#    end
+      exec(command)
+    end
   end
 	```
 
