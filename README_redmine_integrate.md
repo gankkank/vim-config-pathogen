@@ -17,6 +17,16 @@ Completed 200 OK in 29.0ms (Views: 1.0ms | ActiveRecord: 0.0ms)
 
 	```
 
+**plugins** 
+
+	```
+  GIT_BIN = Redmine::Configuration['scm_git_command'] || "sudo git"
+  def git_command(command, repository)
+    GIT_BIN + " --git-dir='/opt/git/#{repository.url}' #{command}"
+  end
+	```
+
+
 2. in redmine repo
 
 	su git
